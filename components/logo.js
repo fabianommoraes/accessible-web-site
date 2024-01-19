@@ -2,9 +2,9 @@ import logo from "../public/logo.svg";
 
 function Logo() {
   return (
-    <div class="container">
-      <a href="/" class="logo-holder">
-        <img class="logo" alt="Homepage" src={logo.src} />
+    <div className="container">
+      <a href="/" className="logo-holder">
+        <img className="logo" alt="Homepage" src={logo.src} />
       </a>
     </div>
   );
