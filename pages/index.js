@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navigation from "@/components/navigation";
 import Logo from "@/components/logo";
+import Jumbotron from "@/components/jumbotron";
+import Testimonials from "@/components/testimonials";
 
 export default function Home() {
   return (
@@ -14,7 +16,10 @@ export default function Home() {
       <header>
         <Logo />
         <Navigation />
-        <div>test</div>
+        <main id="content">
+          <Jumbotron />
+          <Testimonials />
+        </main>
       </header>
     </>
   );
