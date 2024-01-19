@@ -402,3 +402,7 @@ a {
   width: auto;
   height: auto;
 }
+
+.contact-title {
+  font-size: 56px;
+}

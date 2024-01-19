@@ -3,6 +3,7 @@ import Navigation from "@/components/navigation";
 import Logo from "@/components/logo";
 import Jumbotron from "@/components/jumbotron";
 import Testimonials from "@/components/testimonials";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <main id="content">
           <Jumbotron />
           <Testimonials />
+          <Contact />
         </main>
       </header>
     </>
