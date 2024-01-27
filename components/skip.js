@@ -1,6 +1,6 @@
 function Skip() {
   return (
-    <div class="skip">
+    <div className="skip">
       <a href="#content">Skip to main content</a>
     </div>
   );
