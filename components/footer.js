@@ -7,8 +7,9 @@ function Footer() {
       <div className="container bottom-footer">
         <div className="links-footer">
           <p>
-            Copyright © <span id="copyright_year">2019 - 2022</span> Stefany Web
-            Design <span>All Rights Reserved.</span>
+            Copyright <span aria-hidden="true">©</span>{" "}
+            <span id="copyright_year">2019 - 2022</span> Stefany Web Design{" "}
+            <span>All Rights Reserved.</span>
           </p>
           <a
             href="exampleportifolio.com"

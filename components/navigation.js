@@ -2,7 +2,7 @@ import Hamburger from "./hamburger";
 
 function Navigation() {
   return (
-    <nav id="primary-nav">
+    <nav id="primary-nav" aria-label="Main">
       <Hamburger />
       <div className="main-nav bg-primary">
         <ul className="container list-group bg-primary">

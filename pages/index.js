@@ -5,6 +5,7 @@ import Jumbotron from "@/components/jumbotron";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import Skip from "@/components/skip";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
+        <Skip />
         <Logo />
         <Navigation />
         <main id="content">

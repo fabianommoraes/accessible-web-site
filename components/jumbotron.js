@@ -7,7 +7,7 @@ function Jumbotron() {
           Located in Chicago, Illinois we specialize in the treatment of dogs,
           cats and dragons
         </h2>
-        <hr className="my-4" />
+        <hr className="my-4" aria-hidden="true" />
         <div className="container">
           <div className="row">
             <p className="lead ">
