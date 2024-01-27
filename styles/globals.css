@@ -248,7 +248,7 @@ button.bg-primary:focus {
 }
 
 footer.main {
-  background: grey;
+  background: #e9e9e9;
   padding: 1em;
 }
 
@@ -415,4 +415,10 @@ a {
 
 .icon {
   padding: 16px;
+}
+
+.links-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

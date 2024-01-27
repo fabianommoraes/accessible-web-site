@@ -18,10 +18,8 @@ function Testimonials() {
               <strong>We</strong> have the latest technology
             </li>
             <li className="list-group-item">
-              <strong>We</strong>
-              simply love pets and want to see them healthy!
-              <a href="https://example"> Make an appointment </a>
-              today!
+              <strong>We</strong> simply love pets and want to see them healthy!{" "}
+              <a href="https://example">Make an appointment</a> today!
             </li>
           </ul>
         </div>
