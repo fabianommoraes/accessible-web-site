@@ -4,6 +4,7 @@ import Logo from "@/components/logo";
 import Jumbotron from "@/components/jumbotron";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           <Testimonials />
           <Contact />
         </main>
+        <Footer />
       </header>
     </>
   );

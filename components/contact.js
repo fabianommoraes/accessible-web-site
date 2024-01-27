@@ -14,7 +14,7 @@ function Contact() {
           <form className="contact_form">
             <div className="form-group">
               <label>
-                Your Name
+                Your Name{" "}
                 <span aria-hidden="true" style={{ color: "red" }}>
                   *
                 </span>
@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="form-group">
               <label>
-                Email
+                Email{" "}
                 <span aria-hidden="true" style={{ color: "red" }}>
                   *
                 </span>
@@ -31,7 +31,7 @@ function Contact() {
               </label>
             </div>
             <label>
-              Your Message
+              Your Message{" "}
               <span aria-hidden="true" style={{ color: "red" }}>
                 *
               </span>

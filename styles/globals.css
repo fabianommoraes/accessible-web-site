@@ -302,15 +302,21 @@ footer.main .bottom-footer {
   .display-3 {
     font-size: 4.5rem;
   }
-  footer.main .bottom-footer {
+  /* footer.main .bottom-footer {
     grid-template-columns: max-content minmax(45px, 200px) max-content;
     justify-content: space-between;
     align-items: center;
-  }
+  } */
 }
 
 footer.main .bottom-footer span {
   white-space: nowrap;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icons a {
@@ -405,4 +411,8 @@ a {
 
 .contact-title {
   font-size: 56px;
+}
+
+.icon {
+  padding: 16px;
 }
